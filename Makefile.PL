@@ -6,7 +6,10 @@ WriteMakefile
   AUTHOR        => 'G. Casati <fibo@cpan.org>',
   NAME          => 'PNI-Core',
   PREREQ_PM     => {
-    PNI        => '0.15',
-    Test::More => '0.98',
+    PNI                 => '0.15',
+    PNI::Node::Perlfunc => '0.01',
+    PNI::Node::Perlop   => '0.01',
+    PNI::Node::Perlvar  => '0.01',
+    Test::More          => '0.98',
   },
   VERSION_FROM => 'lib/PNI/Core.pm',

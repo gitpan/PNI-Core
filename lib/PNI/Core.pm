@@ -2,13 +2,13 @@ package PNI::Core;
 
 use 5.10.1;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 1;
 
 =head1 NAME
 
-PNI::Core - Perl Node Interface core distribution
+PNI::Core - Perl Node Interface core bundle
 
 =head1 SYNOPSIS
 
@@ -16,7 +16,7 @@ PNI::Core - Perl Node Interface core distribution
 
 =head1 DESCRIPTION
 
-Install L<PNI> core modules and a default set of PNI nodes.
+Installs L<PNI> core modules and a default set of PNI nodes.
 
 This module also requires Perl version greater or equal than 5.10.1,
 
