@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               PNI-Core
-version:            0.02
+version:            0.03
 abstract:           Perl Node Interface core bundle
 author:
     - G. Casati <fibo@cpan.org>
@@ -11,7 +11,7 @@ configure_requires:
 build_requires:
     ExtUtils::MakeMaker:  0
 requires:
-    PNI:                  0.15
+    PNI:                  0.17
     PNI::Node::Perlfunc:  0.01
     PNI::Node::Perlop:    0.01
     PNI::Node::Perlvar:   0.01

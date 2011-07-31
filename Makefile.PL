@@ -6,7 +6,7 @@ WriteMakefile
   AUTHOR        => 'G. Casati <fibo@cpan.org>',
   NAME          => 'PNI-Core',
   PREREQ_PM     => {
-    PNI                 => '0.15',
+    PNI                 => '0.17',
     PNI::Node::Perlfunc => '0.01',
     PNI::Node::Perlop   => '0.01',
     PNI::Node::Perlvar  => '0.01',
