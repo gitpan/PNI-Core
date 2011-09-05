@@ -2,7 +2,7 @@ package PNI::Core;
 
 use 5.10.1;
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 1;
 
